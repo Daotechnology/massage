@@ -5,7 +5,7 @@ const app = express();
 app.use(express.static('Public/verifiedmasseur'));
 
 
-app.get('/working', (req,res) =>{
+app.get('/', (req,res) =>{
     res.send('Its working');
 })
 
