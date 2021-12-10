@@ -1,7 +1,7 @@
-const express = require('express')
+const express = require('express');
 const app = express();
 //require ENVIRONMENT VARIABLE
-require('dotenv').config();
+require('dotenv').config()
 const port = process.env.PORT;
 
 // app.use(express.static(path.join(__dirname , 'public')));
